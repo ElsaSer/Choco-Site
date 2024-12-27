@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <header class="header">
+    <div class="container">
+      <nav class="header-navigation">
+        <a class="logo" aria-label="logo" href="#">
+          <span class="logo-text">
+            simply
+            <span class="logo-decor">chocolate</span>
+          </span>
+          <svg class="header-logo-icon" width="24" height="24">
+            <use href=""></use>
+          </svg>
+        </a>
+        <ul class="header-navigation__list">
+          <li class="header-navigation__item">
+            <a class="header-navigation__link" href="#hero">Home</a>
+          </li>
+          <li class="header-navigation__item">
+            <a class="header-navigation__link" href="#how">How it's made?</a>
+          </li>
+          <li class="header-navigation__item">
+            <a class="header-navigation__link" href="#products">Our products</a>
+          </li>
+          <li class="header-navigation__item">
+            <a class="header-navigation__link" href="#sellers">Top sellers</a>
+          </li>
+          <li class="header-navigation__item">
+            <a class="header-navigation__link" href="#review"
+              >Chocolate is loved</a
+            >
+          </li>
+        </ul>
+        <ul class="header-social__list">
+          <li class="header-social__item">
+            <a
+              class="header-social__link"
+              aria-label="instagram"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="header-social__icon" width="20" height="20">
+                <use href=""></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-social__item">
+            <a
+              class="header-social__link"
+              aria-label="twitter"
+              href="https://twitter.com/?lang=ru"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="header-social__icon" width="20" height="20">
+                <use href=""></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <button class="js-open-menu" aria-label="menu button" type="button">
+          <svg class="burger-icon" width="32" height="22">
+            <use href=""></use>
+          </svg>
+        </button>
+      </nav>
+
+      <div class="js-menu-container">
+        <button class="js-close-menu" aria-label="close button" type="button">
+          <svg class="modal-icon" width="13.33px" height="13.33px">
+            <use href=""></use>
+          </svg>
+        </button>
+        <div class="mobile-menu">
+          <nav class="mobile-navigation">
+            <ul class="header-navigation__list">
+              <li class="header-navigation__item">
+                <a class="header-navigation__link js-anchor-link" href="#hero"
+                  >Home</a
+                >
+              </li>
+              <li class="header-navigation__item">
+                <a class="header-navigation__link js-anchor-link" href="#how"
+                  >How it's made?</a
+                >
+              </li>
+              <li class="header-navigation__item">
+                <a
+                  class="header-navigation__link js-anchor-link"
+                  href="#products"
+                  >Our products</a
+                >
+              </li>
+              <li class="header-navigation__item">
+                <a
+                  class="header-navigation__link js-anchor-link"
+                  href="#sellers"
+                  >Top sellers</a
+                >
+              </li>
+              <li class="header-navigation__item js-anchor-link">
+                <a class="header-navigation__link" href="#review"
+                  >Chocolate is loved</a
+                >
+              </li>
+            </ul>
+            <ul class="header-social__list">
+              <li class="header-social__item">
+                <a
+                  class="header-social__link"
+                  aria-label="instagram"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="header-social__icon" width="20" height="20">
+                    <use href=""></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="header-social__item">
+                <a
+                  class="header-social__link"
+                  aria-label="twitter"
+                  href="https://twitter.com/?lang=ru"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="header-social__icon" width="20" height="20">
+                    <use href=""></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <body>
+    <section id="hero" class="hero">
+      <div class="main-container">
+        <h2 class="hero__title">
+          Treat yourself or a loved one to our finest ingredients for a moment
+          of pure delight!
+        </h2>
+        <ul class="hero__list">
+          <li class="hero__item">
+            <button
+              class="buy-button js-open-modal primary-button"
+              data-modal="1"
+              type="button"
+            >
+              Buy now
+            </button>
+          </li>
+          <li class="hero__item">
+            <a href="#how" class="how-its-made-button"> How it's made </a>
+          </li>
+
+          <li class="hero__item scroll">
+            <a class="scroll__box" href="#footer">
+              <span class="scroll__text">scroll down</span>
+              <span class="scroll__button">
+                <svg class="svg-scroll" width="12" height="12">
+                  <use href=""></use>
+                </svg>
+              </span>
+            </a>
+          </li>
+        </ul>
+        <button
+          class="top-btn"
+          id="toTop"
+          aria-label="Go to top"
+          title="Go to top"
+        >
+          <svg class="top-btn__icon" width="30" height="14">
+            <use href=""></use>
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="container">
+        <h2 class="visually-hidden">Advantages</h2>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <div class="advantages-item__box">
+              <svg class="advantages__icon" width="28" height="28">
+                <use href=""></use>
+              </svg>
+            </div>
+            <h3 class="advantages-item__title">Unsurpassed taste</h3>
+            <p class="advantages-item__text">
+              Crafted with the finest quality cocoa beans and a dedication to
+              perfection, each bite is a decadent experience that simply cannot
+              be matched. Savor the richness and complexity of our Unsurpassed
+              Taste and discover a new level of chocolate bliss.
+            </p>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages-item__box">
+              <svg class="advantages__icon" width="28" height="28">
+                <use href=""></use>
+              </svg>
+            </div>
+            <h3 class="advantages-item__title">Affordable price</h3>
+            <p class="advantages-item__text">
+              Indulge in high-quality chocolate without breaking the bank with
+              Simply Chocolate's selection of affordable treats. Enjoy
+              mouth-watering truffles and velvety chocolate bars without
+              sacrificing taste or quality. Browse our selection and indulge in
+              affordable luxury today.
+            </p>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages-item__box">
+              <svg class="advantages__icon" width="28" height="28">
+                <use href=""></use>
+              </svg>
+            </div>
+            <h3 class="advantages-item__title">Own production</h3>
+            <p class="advantages-item__text">
+              We take pride in our own production process, ensuring that every
+              step is carefully crafted to perfection. From selecting the finest
+              ingredients to handcrafting each piece, our attention to detail is
+              evident in every bite.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section components">
+      <div class="container">
+        <div class="components-content">
+          <h2 class="components__title title">
+            IT ALL ADDS UP TO ONE EXCEPTIONAL
+            <span class="title-decor">TASTE</span> SENSATION
+          </h2>
+          <p class="components__text">
+            At Simply Chocolate, we believe that the secret to exceptional
+            chocolate is in the details. From the sourcing of the finest
+            ingredients to the careful crafting of each individual piece, every
+            step of our process adds up to one exceptional taste sensation.
+          </p>
+        </div>
+        <ul class="flip-card__list">
+          <li class="flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front chocolate">
+                <picture>
+                  <source srcset="" media="( max-width: 1199px )" />
+                  <source srcset="" media="( min-width: 1200px )" />
+                  <img
+                    class="front-img"
+                    loading="lazy"
+                    src=""
+                    alt="chocolate"
+                  />
+                </picture>
+                <h3 class="front-title">MILK CHOCOLATE</h3>
+              </div>
+              <div class="flip-card__back">
+                <h3 class="back-title">MILK CHOCOLATE</h3>
+                <ul class="back-buttons-list">
+                  <li class="back-buttons__item">
+                    <button class="back-button back-button-one">
+                      chocolate
+                    </button>
+                  </li>
+                  <li class="back-buttons__item">
+                    <button class="back-button back-button-two">
+                      the benefits
+                    </button>
+                  </li>
+                </ul>
+                <p class="back-text">
+                  Milk chocolate is a solid chocolate confectionery containing
+                  cocoa, sugar and milk. It is the most consumed type of
+                  chocolate. Chocolate was originally sold and consumed as a
+                  beverage in pre-Columbian times. Although four-fifths of all
+                  milk chocolate is sold in the United States and Europe,
+                  increasingly large amounts are consumed in China and Latin
+                  America.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <picture>
+                  <source srcset="" media="( max-width: 1199px )" />
+                  <source srcset="" media="( min-width: 1200px )" />
+                  <img
+                    class="front-img"
+                    src=""
+                    alt="chocolate"
+                    loading="lazy"
+                  />
+                </picture>
+                <h3 class="front-title">MILK</h3>
+              </div>
+              <div class="flip-card__back">
+                <h3 class="back-title">MILK</h3>
+                <ul class="back-buttons-list">
+                  <li class="back-buttons__item">
+                    <button class="back-button back-button-one">milk</button>
+                  </li>
+                  <li class="back-buttons__item">
+                    <button class="back-button back-button-two">
+                      the benefits
+                    </button>
+                  </li>
+                </ul>
+                <p class="back-text">
+                  Milk is a white liquid food produced by the mammary glands of
+                  mammals. It is the primary source of nutrition for young
+                  mammals (including breastfed human infants) before they are
+                  able to digest solid food.Early-lactation milk, which is
+                  called colostrum, contains antibodies that strengthen the
+                  immune system, and thus reduces the risk of many diseases.
+                  Milk contains many nutrients, including protein and lactose.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front nuts">
+                <picture>
+                  <source srcset="" media="( min-width: 1200px )" />
+                  <source srcset="" media="( max-width: 1199px )" />
+
+                  <img
+                    class="front-img"
+                    src=""
+                    alt="chocolate"
+                    loading="lazy"
+                  />
+                </picture>
+                <h3 class="front-title">NUTS</h3>
+              </div>
+              <div class="flip-card__back">
+                <h3 class="back-title">NUTS</h3>
+                <ul class="back-buttons-list">
+                  <li class="back-buttons__item">
+                    <button class="back-button back-button-one">nuts</button>
+                  </li>
+                  <li class="back-buttons__item">
+                    <button class="back-button back-button-two">
+                      the benefits
+                    </button>
+                  </li>
+                </ul>
+                <p class="back-text">
+                  Almonds, pistachios, and walnuts are some types of nuts that
+                  contain healthy nutrients. When eaten as part of a
+                  nutrient-dense diet, these 9 nuts may offer benefits such as
+                  reducing your risk of heart disease. They are a good source of
+                  fiber, healthy fats, and plant protein. Plus, they are great
+                  on their own, paired with fruit, or added to dishes like
+                  salads, desserts, and grains.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="flip-card">
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <picture>
+                  <source srcset="" media="( min-width: 1200px )" />
+                  <source srcset="" media="( max-width: 1199px )" />
+
+                  <img
+                    class="front-img"
+                    src=""
+                    alt="chocolate"
+                    loading="lazy"
+                  />
+                </picture>
+                <h3 class="front-title">SEMI - SWEET CHOCOLATE</h3>
+              </div>
+              <div class="flip-card__back">
+                <h3 class="back-title">SEMI - SWEET CHOCOLATE</h3>
+                <ul class="back-buttons-list">
+                  <li class="back-buttons__item">
+                    <button class="back-button back-button-one decor">
+                      sweet chocolate
+                    </button>
+                  </li>
+                  <li class="back-buttons__item">
+                    <button class="back-button back-button-two decor">
+                      the benefits
+                    </button>
+                  </li>
+                </ul>
+                <p class="back-text">
+                  Semi-sweet chocolate has a cocoa solid content of 35 to 65%.
+                  One of the best ways to gain an understanding of this type of
+                  chocolate is to compare it to a different type of chocolate.
+                  Semisweet is darker than milk chocolate. In a taste
+                  comparison, it has a slightly bitter taste whereas milk
+                  chocolate is sweeter and more mellow. This delectable flavor
+                  of chocolate is very versatile.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="how" class="section how-made-section">
+      <div class="container">
+        <h2 class="title">hOW IT'S <span class="title-decor">made?</span></h2>
+        <div class="how-made-content">
+          <div class="how-made-video-container">
+            <div class="how-made-video-player">
+              <iframe
+                src="https://www.youtube.com/embed/DISjdfkSjc8?feature=oembed"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="how-made-video-cover">
+              <picture>
+                <source media="(max-width: 767px)" srcset="" />
+                <source
+                  media="(min-width:768px) and (max-width: 1199px)"
+                  srcset=""
+                />
+                <source media="(min-width:1200px)" srcset="" />
+                <img
+                  class="how-made-video-img"
+                  src="#"
+                  alt="Pastry chef
+                preparing chocolate cake"
+                  width="600"
+                  height="400"
+                  loading="lazy"
+                />
+              </picture>
+              <button aria-label="button play video" class="play-btn">
+                <svg class="icon-play">
+                  <use href="#"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="how-made-text-content">
+            <h3 class="text-content__title">
+              Try our chocolates today and discover the perfect balance of
+              flavor
+            </h3>
+            <ul class="text-content__list">
+              <li class="text-content__item">
+                <p class="text-content__text">
+                  Heat the milk in a saucepan without bringing it to a boil. Add
+                  sugar and cocoa powder.
+                </p>
+              </li>
+              <li class="text-content__item">
+                <p class="text-content__text">
+                  At the same time, prepare a water bath. Melt the butter on it.
+                </p>
+              </li>
+              <li class="text-content__item">
+                <p class="text-content__text">
+                  "Mix" the milk mixture and already liquid butter. Mix
+                  thoroughly with a silicone spatula so that the mass becomes
+                  uniform and silky.
+                </p>
+              </li>
+              <li class="text-content__item">
+                <p class="text-content__text">
+                  Heat the mixture over low heat, letting it barely boil.
+                </p>
+              </li>
+              <li class="text-content__item">
+                <p class="text-content__text">
+                  Pour the chocolate into special containers (can be replaced
+                  with ice molds). Allow to cool and harden.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products section">
+      <div class="container">
+        <h2 class="products__title title">
+          Our <span class="title-decor">products</span>
+        </h2>
+        <div class="swiper product-swiper">
+          <ul class="swiper-wrapper product-swiper-wrapper">
+            <li class="product swiper-slide js-open-modal" data-modal="1">
+              <div class="product-wrapper">
+                <img
+                  class="product-wrapper__img"
+                  srcset=""
+                  src=""
+                  alt="Our chocolate"
+                  width="230"
+                  height="201"
+                  loading="lazy"
+                />
+                <h3 class="product-wrapper__title">orange</h3>
+                <p class="product-wrapper__text">Dark chocolate</p>
+                <button class="product-wrapper__btn">45 UAH</button>
+              </div>
+            </li>
+            <li class="product swiper-slide js-open-modal" data-modal="1">
+              <div class="product-wrapper">
+                <img
+                  class="product-wrapper__img"
+                  srcset=""
+                  src=""
+                  alt="Our chocolate"
+                  width="230"
+                  height="201"
+                  loading="lazy"
+                />
+                <h3 class="product-wrapper__title">APPLE&CRANBERRY</h3>
+                <p class="product-wrapper__text">Milk chocolate</p>
+                <button class="product-wrapper__btn">50 UAH</button>
+              </div>
+            </li>
+            <li class="product swiper-slide js-open-modal" data-modal="1">
+              <div class="product-wrapper">
+                <img
+                  class="product-wrapper__img"
+                  srcset=""
+                  src=""
+                  alt="Our chocolate"
+                  width="230"
+                  height="201"
+                  loading="lazy"
+                />
+                <h3 class="product-wrapper__title">lime&sea salt</h3>
+                <p class="product-wrapper__text">Dark chocolate</p>
+                <button class="product-wrapper__btn">66 UAH</button>
+              </div>
+            </li>
+            <li class="product swiper-slide js-open-modal" data-modal="1">
+              <div class="product-wrapper">
+                <img
+                  class="product-wrapper__img"
+                  srcset=""
+                  src=""
+                  alt="Our chocolate"
+                  width="230"
+                  height="201"
+                  loading="lazy"
+                />
+                <h3 class="product-wrapper__title">pineapple</h3>
+                <p class="product-wrapper__text">Dark chocolate</p>
+                <button class="product-wrapper__btn">54 UAH</button>
+              </div>
+            </li>
+            <li class="product swiper-slide js-open-modal" data-modal="1">
+              <div class="product-wrapper">
+                <img
+                  class="product-wrapper__img"
+                  srcset=""
+                  src=""
+                  alt="Our chocolate"
+                  width="230"
+                  height="201"
+                  loading="lazy"
+                />
+                <h3 class="product-wrapper__title">Classic</h3>
+                <p class="product-wrapper__text">Milk chocolate</p>
+                <button class="product-wrapper__btn">45 UAH</button>
+              </div>
+            </li>
+            <li class="product swiper-slide js-open-modal" data-modal="1">
+              <div class="product-wrapper">
+                <img
+                  class="product-wrapper__img"
+                  srcset=""
+                  src=""
+                  alt="Our chocolate"
+                  width="230"
+                  height="201"
+                  loading="lazy"
+                />
+                <h3 class="product-wrapper__title">honey</h3>
+                <p class="product-wrapper__text">Milk chocolate</p>
+                <button class="product-wrapper__btn">50 UAH</button>
+              </div>
+            </li>
+            <li class="product swiper-slide js-open-modal" data-modal="1">
+              <div class="product-wrapper">
+                <img
+                  class="product-wrapper__img"
+                  srcset=""
+                  src=""
+                  alt="Our chocolate"
+                  width="230"
+                  height="201"
+                  loading="lazy"
+                />
+                <h3 class="product-wrapper__title">Roasted fruits</h3>
+                <p class="product-wrapper__text">Dark chocolate</p>
+                <button class="product-wrapper__btn">66 UAH</button>
+              </div>
+            </li>
+            <li class="product swiper-slide js-open-modal" data-modal="1">
+              <div class="product-wrapper">
+                <img
+                  class="product-wrapper__img"
+                  srcset="
+                   
+                  "
+                  src=""
+                  alt="Our chocolate"
+                  width="230"
+                  height="201"
+                  loading="lazy"
+                />
+                <h3 class="product-wrapper__title">Classic</h3>
+                <p class="product-wrapper__text">White chocolate</p>
+                <button class="product-wrapper__btn">54 UAH</button>
+              </div>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sellers" class="section">
+      <div class="container">
+        <h2 class="title"><span class="title-decor">Top </span>Sellers</h2>
+        <ul class="sellers-list">
+          <li class="sellers-item">
+            <picture>
+              <source srcset="" media="(max-width: 767px)" type="image/webp" />
+              <source
+                srcset=""
+                media="(min-width: 768px) and (max-width: 1199px)"
+                type="image/webp"
+              />
+              <source srcset="" media="(min-width: 1200px)" type="image/webp" />
+              <img
+                class="sellers-img"
+                src=""
+                alt="Chocolate with coffe and nuts"
+                width="368"
+                height="464"
+                loading="lazy"
+              />
+            </picture>
+            <p class="sellers-text sellers-item-content">
+              Crazy enough chocolate originates from a bean just like the coffee
+              bean called Cacao. Cacao has been around for thousands of years
+              and was first discovered by the Native American tribe called the
+              Mayans.
+            </p>
+          </li>
+          <li class="sellers-item">
+            <picture>
+              <source srcset="" media="(max-width: 767px)" type="image/webp" />
+              <source
+                srcset=""
+                media="(min-width: 768px) and (max-width: 1199px)"
+                type="image/webp"
+              />
+              <source srcset="" media="(min-width: 1200px)" type="image/webp" />
+              <img
+                class="sellers-img"
+                src=""
+                alt="Chocolate with fruit"
+                width="368"
+                height="464"
+                loading="lazy"
+              />
+            </picture>
+            <button
+              type="button"
+              class="sellers-button sellers-item-content js-open-modal primary-button"
+              data-modal="1"
+            >
+              Buy now
+            </button>
+          </li>
+          <li class="sellers-item">
+            <picture>
+              <source srcset="" media="(min-width: 1200px)" type="image/webp" />
+              <img
+                class="sellers-img"
+                src=""
+                alt="Different chocolate"
+                width="368"
+                height="464"
+                loading="lazy"
+              />
+            </picture>
+          </li>
+        </ul>
+        <div class="sellers-box">
+          <p class="sellers-text">
+            Crazy enough chocolate originates from a bean just like the coffee
+            bean called Cacao. Cacao has been around for thousands of years and
+            was first discovered by the Native American tribe called the Mayans.
+          </p>
+          <button
+            type="button"
+            class="sellers-button js-open-modal primary-button"
+            data-modal="1"
+          >
+            Buy now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="review" class="review-section section">
+      <div class="container">
+        <h2 class="review-title title">
+          <span class="title-decor">chocolate</span> is loved
+        </h2>
+        <div class="swiper-rew review-swiper-padding">
+          <ul class="swiper-wrapper review-swiper-wrapper">
+            <li class="review swiper-slide">
+              <div class="review-card">
+                <img
+                  class="reviews-card-img"
+                  srcset=""
+                  src=""
+                  alt="Victoria Dobrzhanska"
+                  width="80"
+                  height="80"
+                  loading="lazy"
+                />
+                <h3 class="reviews-card-title">Victoria Dobrzhanska</h3>
+                <p class="reviews-card-text">
+                  I love this chocolate bar. Perfect combination of light crispy
+                  wafer, covered in a thin layer chocolate.
+                </p>
+              </div>
+            </li>
+            <li class="review swiper-slide">
+              <div class="review-card">
+                <img
+                  class="reviews-card-img"
+                  srcset=""
+                  src=""
+                  alt="Nazar Babenko"
+                  width="80"
+                  height="80"
+                  loading="lazy"
+                />
+                <h3 class="reviews-card-title">Nazar Babenko</h3>
+                <p class="reviews-card-text">
+                  This chocolate confection is a delight! A delight! The wafer
+                  is light and crisp, the hazelnut cream is smooth, and the
+                  chocolate is good.
+                </p>
+              </div>
+            </li>
+            <li class="review swiper-slide">
+              <div class="review-card">
+                <img
+                  class="reviews-card-img"
+                  srcset=""
+                  src=""
+                  alt="Olena Kampusch"
+                  width="80"
+                  height="80"
+                  loading="lazy"
+                />
+                <h3 class="reviews-card-title">Olena Kampusch</h3>
+                <p class="reviews-card-text">
+                  Chocolate is a family favourite treat. Love the delicious
+                  smooth chocolate and the creaminess inside. The wafer is soft
+                  but crunchy.
+                </p>
+              </div>
+            </li>
+
+            <li class="review swiper-slide">
+              <div class="review-card">
+                <img
+                  class="reviews-card-img"
+                  srcset=""
+                  src=""
+                  alt="Natalia Sus"
+                  width="80"
+                  height="80"
+                  loading="lazy"
+                />
+                <h3 class="reviews-card-title">Natalia Sus</h3>
+                <p class="reviews-card-text">
+                  The chocolate assortment was delicious. Both dark and milk
+                  chocolate pieces were smooth and just right on the sweetness
+                  level.
+                </p>
+              </div>
+            </li>
+
+            <li class="review swiper-slide">
+              <div class="review-card">
+                <img
+                  class="reviews-card-img"
+                  srcset=""
+                  src=""
+                  alt="Danilo Nottingham"
+                  width="80"
+                  height="80"
+                  loading="lazy"
+                />
+                <h3 class="reviews-card-title">Danilo Nottingham</h3>
+                <p class="reviews-card-text">
+                  This is delicious. It so rich and flavorful you don’t need to
+                  use as many. I love topping an apple with almond butter and
+                  these chips for a snack.
+                </p>
+              </div>
+            </li>
+
+            <li class="review swiper-slide">
+              <div class="review-card">
+                <img
+                  class="reviews-card-img"
+                  srcset=""
+                  src=""
+                  alt="Irina Tydnyuk"
+                  width="80"
+                  height="80"
+                  loading="lazy"
+                />
+                <h3 class="reviews-card-title">Irina Tydnyuk</h3>
+                <p class="reviews-card-text">
+                  This is simply the best chocolate around, and I'm just
+                  thrilled to support a local company! Best local chocolate -
+                  world class :)
+                </p>
+              </div>
+            </li>
+          </ul>
+          <div class="swiper-pagination-review"></div>
+
+          <button type="button" class="review-btn js-open-modal" data-modal="2">
+            Leave a review
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="container">
+        <div class="subscribe-content">
+          <h2 class="subscribe-title title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
+          <p class="subscribe-text">
+            From the velvety texture to the rich and complex flavor, our New
+            Chocolate is a true indulgence that will leave you craving more.
+            Made with only the finest ingredients and handcrafted with the
+            utmost care, each piece is a work of art that is sure to please.
+          </p>
+        </div>
+        <button
+          class="primary-button subscribe-btn js-open-modal"
+          data-modal="3"
+        >
+          Subscribe
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
